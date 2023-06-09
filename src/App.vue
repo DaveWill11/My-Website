@@ -1,18 +1,22 @@
 <script setup>
-import Header from './components/Header.vue'
+import Nav from './components/Nav.vue'
+import Resume from './components/Resume.vue'
+import About from './components/About.vue'
 </script>
 
 <template>
-  <header class="header">
+  <header>
 
-    <div class="wrapper">
-      <Header />
+    <div>
+      <Nav />
   </div>
-
+<div>
+  <p>Image Here</p>
+</div>
   </header>
 
   <main>
-  
+    <About />
   </main>
 </template>
 
